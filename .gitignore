@@ -1,0 +1,27 @@
+# Ignorar arquivos gerados automaticamente
+
+node_modules
+/playwright-report
+/.nyc_output
+/coverage-e2e
+/server-build
+/.idea
+/.cache
+/build
+/public/build
+.env
+/coverage
+/index.js
+/index.html
+#package-lock.json
+#*/package-lock.json
+
+# Ignorar arquivos do sistema operacional
+
+.DS_Store
+
+# Ignorar arquivos de configuração específicos
+
+.gitconfig
+.vscode
+.editorconfig
